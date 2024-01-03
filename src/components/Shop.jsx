@@ -47,7 +47,7 @@ const Shop = () => {
 
                             <div class="relative bg-white pt-3">
                                 <h3 class="text-xs text-gray-700 group-hover:underline group-hover:underline-offset-4">
-                                    Camiseta Arquero
+                                    Camiseta Arquero 2023
                                 </h3>
 
                                 <p class="mt-2">

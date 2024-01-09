@@ -18,7 +18,7 @@ const Shop = () => {
                     <li>
                         <a href="#" class="group block overflow-hidden">
                             <img
-                                src="public/titular.jpg"
+                                src="Titular.jpg"
                                 alt=""
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                             />
@@ -40,7 +40,7 @@ const Shop = () => {
                     <li>
                         <a href="#" class="group block overflow-hidden">
                             <img
-                                src="public/arquero.jpg"
+                                src="Arquero.jpg"
                                 alt=""
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                             />
@@ -62,7 +62,7 @@ const Shop = () => {
                     <li>
                         <a href="#" class="group block overflow-hidden">
                             <img
-                                src="public/Stickers.jpg"
+                                src="Stickers.jpg"
                                 alt=""
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                             />
@@ -84,7 +84,7 @@ const Shop = () => {
                     <li>
                         <a href="#" class="group block overflow-hidden">
                             <img
-                                src="public/Llaveros.jpg"
+                                src="Llaveros.jpg"
                                 alt=""
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                             />

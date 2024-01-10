@@ -1,0 +1,61 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "nombre": "Camiseta Titular 2023",
+        "precio": 10000,
+        "descripcion": "Camiseta Titular temporada 2023",
+        "categoria": "Camiseta",
+        "imagen": "https://i.ibb.co/GFCwc4c/Titular.jpg"
+      },
+      {
+        "id": 2,
+        "nombre": "Camiseta Alternativa 2023",
+        "precio": 10000,
+        "descripcion": "Camiseta Suplente temporada 2023",
+        "categoria": "Camiseta",
+        "imagen":"https://i.ibb.co/bFVWSkt/Alternativa.jpg"
+      },
+      {
+        "id": 3,
+        "nombre": "Camiseta Arquero 2023",
+        "precio": 10000,
+        "descripcion": "Camiseta Arquero temporada 2023",
+        "categoria": "Camiseta",
+        "imagen":"https://i.ibb.co/vwpMF1V/Arquero.jpg"
+      },
+      {
+        "id": 4,
+        "nombre": "Short Titular 2023",
+        "precio": 5000,
+        "descripcion": "Short Titular temporada 2023",
+        "categoria": "Short",
+        "imagen":"https://i.ibb.co/PGt739n/Short-Titular.jpg"
+      },
+      {
+        "id": 5,
+        "nombre": "Short Suplente 2023",
+        "precio": 5000,
+        "descripcion": "Short Suplente temporada 2023",
+        "categoria": "Short",
+        "imagen":"https://i.ibb.co/hf61cB0/Short-Suplente.jpg"
+      },
+      {
+        "id": 6,
+        "nombre": "Llavero Defensores del Branca",
+        "precio": 500,
+        "descripcion": "Llavero del escudo del Defensores del Branca",
+        "categoria": "Accesorio",
+        "imagen":"https://i.ibb.co/NmhQ37y/Llaveros.jpg"
+      },
+      {
+        "id": 7,
+        "nombre": "Sticker Defensores del Branca",
+        "precio": 150,
+        "descripcion": "Sticker del escudo del Defensores del Branca",
+        "categoria": "Accesorio",
+        "imagen":"https://i.ibb.co/HFCnBjt/Stickers.jpg"
+      }
+    ]
+  }
+  

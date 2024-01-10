@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from 'react-icons/fa';
-import { Badge, Button, ButtonGroup, IconButton } from "@material-tailwind/react";
+import { Badge, Button} from "@material-tailwind/react";
 
 
 const Navigation = () => {
@@ -9,10 +9,10 @@ const Navigation = () => {
             <header className="font-custom text-white body-font bg-[#870A28] w-full z-10">
                 <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
                     <nav className="sticky flex lg:w-2/5 text-xl flex-wrap items-center tmd:ml-auto">
-                    <Button variant="text" className="mr-2 text-white"> <Link to="/home" >Inicio</Link> </Button> 
-                    <Button variant="text" className="mr-2 text-white"> <Link to="/shop" >Tienda</Link> </Button>
-                    <Button variant="text" className="mr-2 text-white"> <Link to="/team" >Equipo</Link> </Button>
-                    <Button variant="text" className="mr-2 text-white"> <Link to="/about" >Nosotros</Link> </Button>
+                    <Button variant="text" className="mr-1 text-white"> <Link to="/home" >Inicio</Link> </Button> 
+                    <Button variant="text" className="mr-1 text-white"> <Link to="/shop" >Tienda</Link> </Button>
+                    <Button variant="text" className="mr-1 text-white"> <Link to="/team" >Equipo</Link> </Button>
+                    <Button variant="text" className="mr-1 text-white"> <Link to="/about" >Nosotros</Link> </Button>
                          
                     </nav>
                     <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">

@@ -1,5 +1,6 @@
 import React from "react";
 
+
 const Shop = () => {
     return (
         <section>
@@ -18,7 +19,7 @@ const Shop = () => {
                     <li>
                         <a href="#" class="group block overflow-hidden">
                             <img
-                                src="Titular.jpg"
+                                src="https://i.ibb.co/bFVWSkt/Alternativa.jpg"
                                 alt=""
                                 class="h-[350px] w-full object-cover transition duration-500 group-hover:scale-105 sm:h-[450px]"
                             />

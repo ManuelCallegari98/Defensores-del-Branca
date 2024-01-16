@@ -67,10 +67,11 @@ export function Cart() {
                             Total: ${getTotal()}
                         </div>
                         <div className="flex justify-center items-center">
-                            <button onClick={clearCart}>
-                                {" "}
-                                <BsCartX />{" "}
-                            </button>
+                            {cart.length !== 0 && (
+                                <button onClick={clearCart}>
+                                    <BsCartX />
+                                </button>
+                            )}
                         </div>
                     </aside>
                 </div>

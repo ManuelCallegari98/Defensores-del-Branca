@@ -16,8 +16,13 @@ const DetallesProducto = () => {
     const [talle, setTalle] = useState(''); // Estado para el talle
 
     const manejarClick = () => {
-        addToCart(producto, 1, talle);
+        if (!talle && producto.categoria!=='Accesorio') {
+            alert('Por favor, selecciona un talle antes de agregar al carrito');
+        } else {
+            addToCart(producto, 1, talle);
+        }
     };
+    
 
     return (
         <div class="flex flex-col md:flex-row font-custom h-screen">
@@ -60,7 +65,7 @@ const DetallesProducto = () => {
                         </div>
                     </div>
                 )}
-                <button type="button" onClick={manejarClick} class="py-2 px-4 bg-verdeDDB hover:bg-verdeDDB-900 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none rounded-lg ">
+                <button type="button" onClick={manejarClick}  className="py-2 px-4 bg-verdeDDB hover:bg-verdeDDB-900 text-white w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none rounded-lg ">
                     Agregar al Carrito
                 </button>
             </div>

@@ -1,8 +1,7 @@
-import React, { useState } from 'react';
-import { FaShoppingCart } from 'react-icons/fa';
-import { Link, Outlet } from 'react-router-dom';
+
+import { Link} from 'react-router-dom';
 import { Filtros } from "./Filtros";
-import DetallesProducto from './DetallesProducto';
+
 
 export function Productos({ productos }) {
     return (

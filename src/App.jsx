@@ -6,6 +6,7 @@ import  Team  from "./components/Team"
 import  About  from "./components/About"
 import DetallesProducto from "./components/DetallesProducto"
 import { CartProvider } from "./context/cart"
+import Login from "./components/Login"
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
               <DetallesProducto />
             </CartProvider>
           } exact />
+        <Route path='/login' element={ <Login /> } exact />
       </Routes>
     </>
   )

@@ -24,7 +24,7 @@ const Navigation = () => {
                         <Weather /> 
                     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
                             <button className="inline-flex items-center bg-[#00613c] border-0 py-1 px-3 focus:outline-none hover:bg-[#00613cae] rounded text-base mt-4 md:mt-0">
-                                --
+                                <Link to='/login' >Login</Link>
                             </button>
                     </div>
                     </div>

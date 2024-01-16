@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { WiDaySunny } from "react-icons/wi";
+
 
 const Weather = () => {
   const [weatherData, setWeatherData] = useState(null);
@@ -31,7 +33,7 @@ const Weather = () => {
     }
   }, [location]);
 
-  if (!weatherData) return <div>Cargando...</div>;
+  if (!weatherData) return <div className='aspect-square w-8 flex justify-center items-center animate-spin animate-duration-[2500ms]'><WiDaySunny size={28} /> </div>;
 
   const iconUrl = `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`;
 

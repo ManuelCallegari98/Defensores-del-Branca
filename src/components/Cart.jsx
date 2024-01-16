@@ -1,4 +1,4 @@
-import { useId } from "react";
+
 import { BsCart, BsCartX, BsTrash3 } from "react-icons/bs";
 import SelectorCantidad from "./SelectorCantidad";
 import { useCart } from "../hooks/useCart";

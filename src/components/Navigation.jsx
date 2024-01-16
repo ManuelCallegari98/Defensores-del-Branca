@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FaShoppingCart } from 'react-icons/fa';
 import { Badge, Button} from "@material-tailwind/react";
+import Weather from "./Weather";
 
 
 const Navigation = () => {
@@ -19,10 +20,13 @@ const Navigation = () => {
                         <Link to="/" className="flex items-center text-white text-xl"><img src="/LogoDDB.png" cursor="pointer" alt="Logo" width={50} height={70} layout="fill" className="transition-all duration-300 transform hover:scale-110 mr-2" />{' '}Defensores del Branca</Link>
                         
                     </a>
+                    <div className="lg:w-2/5 inline-flex lg:justify-end ml-1 lg:ml-0">
+                        <Weather /> 
                     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
                             <button className="inline-flex items-center bg-[#00613c] border-0 py-1 px-3 focus:outline-none hover:bg-[#00613cae] rounded text-base mt-4 md:mt-0">
                                 --
                             </button>
+                    </div>
                     </div>
                 </div>
             </header>

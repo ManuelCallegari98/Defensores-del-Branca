@@ -48,7 +48,7 @@ const Partidos = () => {
         },
         {
             equipoLocal: "Defensores del Branca",
-            equipoVisitante: "Deportivo cortar y comer",
+            equipoVisitante: "Cortar y Comer",
             fecha: "30/06/2023",
             hora: "12:00",
             estadio: "Club de Suboficiales del Ejército Argentino",
@@ -90,7 +90,7 @@ const Partidos = () => {
     ];
 
     return (
-        <div className="col-span-12 md:col-span-4 h-[20vh] md:h-[30vh] w-full md:w-auto font-custom ">
+        <div className="col-span-12 md:col-span-4 h-[20vh] md:h-[30vh] w-full md:w-auto font-custom animate-fade-down animate-once animate-duration-400 animate-delay-[200ms] animate-ease-in">
             <h1 className="text-xl text-left rounded-sm">Calendario 2023</h1>
             <div className="relative h-full w-full rounded-lg overflow-hidden border-2 border-rojoDDB">
                 <div className="absolute left-2 flex flex-col items-center ">

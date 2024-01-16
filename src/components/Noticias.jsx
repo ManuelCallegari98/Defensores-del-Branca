@@ -28,7 +28,7 @@ const Noticias = () => {
     ];
 
     return (
-        <div className="col-span-12 md:col-span-8 p-2">
+        <div className="col-span-12 md:col-span-8 p-2 animate-fade animate-once animate-duration-400 animate-delay-[200ms] animate-ease-in">
                 <Carousel className="rounded-lg shadow transition hover:shadow-lg">
                     {noticias.map((noticia) => (
                         <div className="relative h-full w-full">

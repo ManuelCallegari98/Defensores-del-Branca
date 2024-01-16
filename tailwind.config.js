@@ -24,5 +24,6 @@ module.exports = withMT({
   },
   plugins: [
     "@tailwindcss/forms",
+    require('tailwindcss-animated'),
   ],
 });

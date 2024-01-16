@@ -1,0 +1,15 @@
+.filtros {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin: 0 auto;
+    margin-top: 1rem;
+    font-size: medium;
+    font-weight: 400;
+}
+
+.filtros > div {
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+}

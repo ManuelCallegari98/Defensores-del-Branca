@@ -58,10 +58,10 @@ const TablaPosiciones = () => {
 
 
 
-    <div className="w-full mx-auto m-10 p-1 font-custom">
+    <div className="w-full mx-auto m-10 p-1 font-custom animate-fade-up animate-once animate-duration-400 animate-delay-[200ms] animate-ease-in">
       <h1 className='text-xl text-left'>Tabla de Posiciones</h1>
       <div className='border-t-4 border-verdeDDB border-b-4'>
-        <table className="w-full bg-white table-auto">
+        <table className="w-full table-auto">
           <thead>
             <tr className='border-b-2 border-verdeDDB'>
               <th className="py-2 px-3 ">#</th>

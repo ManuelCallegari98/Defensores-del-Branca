@@ -3,7 +3,7 @@ import React from 'react';
 const History = () => {
     return (
         <div className="flex flex-col items-center font-custom p-4 flex-grow">
-            <img src="/LogoDDB.png" alt="Descripción de la imagen" className="fixed top-[45%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] z-[-1] w-auto h-[40vh] opacity-40" />
+            <img src="/LogoDDB.png" alt="Descripción de la imagen" className="fixed top-[45%] left-[50%] transform -translate-x-[50%] -translate-y-[50%] z-[-1] w-auto h-[40vh] opacity-30" />
             <h2 className="text-2xl font-bold ">Nuestra Historia</h2>
             <div className="p-1 gap-2 flex flex-col md:flex-row items-center justify-center pt-12 ">
                 <div>

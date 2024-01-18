@@ -29,7 +29,9 @@ const DetallesProducto = () => {
 
 
     return (
-        <div class="flex flex-col md:flex-row font-custom h-screen">
+
+            
+        <div class="flex flex-col md:flex-row font-custom p-4 flex-grow">
             <div class="w-full md:w-1/2 p-4">
                 <img src={producto.imagen} alt={producto.descripcion} class="mx-auto" style={{ maxWidth: "100%", maxHeight: "100vh" }} />
             </div>
@@ -77,6 +79,7 @@ const DetallesProducto = () => {
             </div>
             <Cart />
         </div>
+
     );
 };
 

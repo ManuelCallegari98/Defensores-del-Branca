@@ -17,7 +17,7 @@ const History = () => {
                         En nuestros primeros encuentros, el "Defe" del Branca se destacaba con camisetas de color violeta, camisetas que eran prestadas desde la facultad. Con cada partido, forjábamos no solo nuestra identidad en la cancha, sino también la conexión especial que nos unía como amigos y compañeros de equipo.
                     </p>
                 </div>
-                <img src="https://i.ibb.co/WVngRxL/1er-A-o-DDB.jpg" alt="Imagen 1" className="lg:h-[60vh] md:order-first md:w-full" />
+                <img src="https://i.ibb.co/WVngRxL/1er-A-o-DDB.jpg" alt="Imagen 1" className="h-full w-full md:h-[60vh] md:w-auto lg:h-[60vh] md:order-first" />
             </div>
             <div className="p-1 gap-2 flex flex-col md:flex-row items-center justify-center pt-12">
                 <img src="https://i.ibb.co/LPYc6Ys/2018DDB.jpg" alt="DDB en primer año ya con camiseta y colores propios" className="lg:h-[60vh] md:order-first md:w-full" />

@@ -18,7 +18,7 @@ const Login = () => {
             //Guardar la sesión del usuario
             window.sessionStorage.setItem('usuario', email);
 
-            navigate('/profile');
+            navigate('/');
             window.location.reload();
       
 

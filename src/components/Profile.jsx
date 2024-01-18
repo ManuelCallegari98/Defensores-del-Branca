@@ -23,7 +23,7 @@ function Profile() {
                 alt="Logo"
                 className="w-32 h-auto object-cover pt-2"
             />
-            <h1 className="text-4xl font-bold text-center">
+            <h1 className="text-2xl font-bold text-center">
                 Bienvenido a Defensores del Branca {user}
             </h1>
         </div>

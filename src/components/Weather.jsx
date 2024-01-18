@@ -23,7 +23,7 @@ const Weather = () => {
   useEffect(() => {
     if (location.latitude && location.longitude) {
       // URL de la API
-      const url = `http://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=3d98a7d27e160bee16227009c76940e9&lang=es`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=3d98a7d27e160bee16227009c76940e9&lang=es`;
 
       // Realizar la solicitud
       fetch(url)

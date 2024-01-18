@@ -20,7 +20,7 @@ const History = () => {
                 <img src="https://i.ibb.co/WVngRxL/1er-A-o-DDB.jpg" alt="Imagen 1" className="h-full w-full md:h-[60vh] md:w-auto lg:h-[60vh] md:order-first" />
             </div>
             <div className="p-1 gap-2 flex flex-col md:flex-row items-center justify-center pt-12">
-                <img src="https://i.ibb.co/LPYc6Ys/2018DDB.jpg" alt="DDB en primer año ya con camiseta y colores propios" className="lg:h-[60vh] md:order-first md:w-full" />
+                <img src="https://i.ibb.co/LPYc6Ys/2018DDB.jpg" alt="DDB en primer año ya con camiseta y colores propios" className="h-full w-full md:h-[60vh] md:w-auto lg:h-[60vh] md:order-first" />
                 <div>
                     <p className="text-black text-center">
                         El primer año de competición fue todo un desafío, pero demostramos desde el principio que estábamos destinados a grandes logros. Alcanzamos el subcampeonato, marcando así el inicio de una viaje lleno de emociones y desafíos. Sin embargo, la llegada del covid-19 y la transición a la virtualidad mantuvo a las águilas alejadas de las canchas durante un tiempo.

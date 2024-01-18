@@ -1,5 +1,42 @@
+import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
+
+    const [ email, setEmail ] = useState('');
+    const [ password, setPassword ] = useState('');
+
+    const navigate = useNavigate();
+
+
+    const login = () =>{
+
+
+        if(email == 'manuelcallegari98@gmail.com' && password == '21'){
+            alert('Bienvenido Manu al Defe del Branca!!!');
+
+            //Guardar la sesión del usuario
+            window.sessionStorage.setItem('usuario', email);
+
+            navigate('/profile');
+            window.location.reload();
+      
+
+
+        }else{
+            alert('Email o Password incorrectos');
+        }
+
+        limpiarDatos();
+
+    }
+
+    function limpiarDatos() {
+        setEmail('');
+        setPassword('');
+    }
+
+
     return (
 
         <section className="relative flex flex-wrap lg:h-screen lg:items-center font-custom">
@@ -21,6 +58,9 @@ const Login = () => {
                                 type="email"
                                 className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                 placeholder="Enter email"
+                                value = { email }
+                                onChange={(e) => setEmail(e.target.value)}
+                                required
                             />
 
                             <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -50,6 +90,9 @@ const Login = () => {
                                 type="password"
                                 className="w-full rounded-lg border-gray-200 p-4 pe-12 text-sm shadow-sm"
                                 placeholder="Enter password"
+                                value={password}
+                                onChange={(e)=> setPassword(e.target.value)}
+                                required
                             />
 
                             <span className="absolute inset-y-0 end-0 grid place-content-center px-4">
@@ -81,6 +124,7 @@ const Login = () => {
                         
 
                         <button
+                            onClick={ login }
                             type="submit"
                             className="inline-block rounded-lg bg-verdeDDB px-5 py-3 text-sm font-medium text-white"
                         >
@@ -94,7 +138,7 @@ const Login = () => {
                 <img
                     alt="Welcome"
                     src="/LogoDDB.png"
-                    className="absolute inset-0 h-full w-auto object-cover"
+                    className="absolute inset-0 h-full w-auto object-cover pb-12 pt-4"
                 />
             </div>
         </section>

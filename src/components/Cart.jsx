@@ -2,6 +2,7 @@
 import { BsCart, BsCartX, BsTrash3 } from "react-icons/bs";
 import SelectorCantidad from "./SelectorCantidad";
 import { useCart } from "../hooks/useCart";
+import { Badge } from "@material-tailwind/react";
 
 import { useState } from "react";
 
@@ -12,12 +13,15 @@ export function Cart() {
 
     return (
         <div className="fixed bottom-4 right-4 z-50">
+            <Badge content={cart.length} withBorder className="z-10 ">
+
             <button
                 className="p-2 bg-verdeDDB text-white rounded-full focus:outline-none z-10"
                 onClick={() => setIsOpen(!isOpen)}
             >
                 <BsCart />
             </button>
+            </Badge>
 
             {isOpen && (
                 <div

@@ -1,0 +1,56 @@
+{
+    "players": [
+        {
+            "img": "https://i.ibb.co/nMnTYpv/yari.png",
+            "alt": "Yari Zubillaga - 99"
+        },
+        {
+            "img": "https://i.ibb.co/rmcyMfR/miret.png",
+            "alt": "Franco Miret - 4"
+        },
+        {
+            "img": "https://i.ibb.co/3fhdB1P/zaragoza.png",
+            "alt": "Gonzalo Zaragoza - 66"
+        },
+        {
+            "img": "https://i.ibb.co/f4pMPQf/emens.png",
+            "alt": "Santiago Emens - 10"
+        },
+        {
+            "img": "https://i.ibb.co/BP1KytL/ojeda.png",
+            "alt": "Matias Ojeda - 19"
+        },
+        {
+            "img": "https://i.ibb.co/1KTFQ7w/vaena.png",
+            "alt": "Jeremias Vaena - 3"
+        },
+        {
+            "img": "https://i.ibb.co/hLVzXY7/jair.png",
+            "alt": "Jair Rossier - 6"
+        },
+        {
+            "img": "https://i.ibb.co/nwHTzyB/gonzar.png",
+            "alt": "Gonzalo Rivasseu - 1"
+        },
+        {
+            "img": "https://i.ibb.co/yqmjYbH/jc.png",
+            "alt": "Juan Cruz Del Valle - 12"
+        },
+        {
+            "img": "https://i.ibb.co/PCSK9vb/pata.png",
+            "alt": "Lihuen 'Pata' Segovia - 9"
+        },
+        {
+            "img": "https://i.ibb.co/c1FcxC7/manu.png",
+            "alt": "Manuel Callegari - 21"
+        },
+        {
+            "img": "https://i.ibb.co/rFtpMSq/mauri.png",
+            "alt": "Mauricio Blanc - 23"
+        },
+        {
+            "img": "https://i.ibb.co/LpMr3MK/piriz.png",
+            "alt": "Gaston Piriz - CT"
+        }
+    ]
+}

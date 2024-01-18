@@ -6,8 +6,9 @@ import { Filtros } from "./Filtros";
 export function Productos({ productos }) {
     return (
         <main>
-            <div className='relative h-full w-full'>
-                <img src="/banner.jpeg" alt="" className='h-full w-full ' />
+            <div className='relative h-full w-full flex'>
+                <a href='https://www.instagram.com/defensoresdelbrancafc/' className='font-custom text-sm text-white absolute right-4 pt-1'>@defensoresdelbrancafc</a>
+                <img src="/ban.jpeg" alt="" className='h-full w-full ' />
             </div>
             <div className='mx-auto max-w-screen-xl px-4 py-4 sm:px-6 sm:py-12 lg:px-8 font-custom'>
 

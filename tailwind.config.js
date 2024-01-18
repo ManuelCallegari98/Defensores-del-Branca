@@ -17,7 +17,7 @@ module.exports = withMT({
       },
       colors: {
         'rojoDDB': '#870A28',
-        'verdeDDB': '#00613cae',
+        'verdeDDB': '#00613c',
         // ...
       },
     },
@@ -25,5 +25,6 @@ module.exports = withMT({
   plugins: [
     "@tailwindcss/forms",
     require('tailwindcss-animated'),
+    
   ],
 });

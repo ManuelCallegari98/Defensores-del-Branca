@@ -17,10 +17,10 @@ const History = () => {
                         En nuestros primeros encuentros, el "Defe" del Branca se destacaba con camisetas de color violeta, camisetas que eran prestadas desde la facultad. Con cada partido, forjábamos no solo nuestra identidad en la cancha, sino también la conexión especial que nos unía como amigos y compañeros de equipo.
                     </p>
                 </div>
-                <img src="https://i.ibb.co/WVngRxL/1er-A-o-DDB.jpg" alt="Imagen 1" className="h-[60vh] md:order-last md:h-full" />
+                <img src="https://i.ibb.co/WVngRxL/1er-A-o-DDB.jpg" alt="Imagen 1" className="h-[60vh] md:order-last md:w-full" />
             </div>
             <div className="p-1 gap-2 flex flex-col md:flex-row items-center justify-center pt-12">
-                <img src="https://i.ibb.co/LPYc6Ys/2018DDB.jpg" alt="DDB en primer año ya con camiseta y colores propios" className="h-[60vh] md:order-first md:h-full" />
+                <img src="https://i.ibb.co/LPYc6Ys/2018DDB.jpg" alt="DDB en primer año ya con camiseta y colores propios" className="h-[60vh] md:order-first md:w-full" />
                 <div>
                     <p className="text-black text-center">
                         El primer año de competición fue todo un desafío, pero demostramos desde el principio que estábamos destinados a grandes logros. Alcanzamos el subcampeonato, marcando así el inicio de una viaje lleno de emociones y desafíos. Sin embargo, la llegada del covid-19 y la transición a la virtualidad mantuvo a las águilas alejadas de las canchas durante un tiempo.

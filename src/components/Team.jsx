@@ -12,7 +12,8 @@ const Team = () => {
     const [activeIndex, setActiveIndex] = useState(0);
 
     return (
-        <>
+        <div className="flex flex-col items-center font-custom p-4 flex-grow">
+
         <img src="/LogoDDB.png" alt="Logo Defensores del Branca" className='logo' />
           <Swiper
             effect={'coverflow'}
@@ -41,7 +42,8 @@ const Team = () => {
                 </SwiperSlide>
             ))}
         </Swiper>
-        </>
+        </div>
+
       );
     }
 

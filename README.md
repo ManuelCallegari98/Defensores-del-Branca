@@ -5,7 +5,7 @@ Se creo una aplicación web con React y Vite que permite a los usuarios:
 -Visualizar indumentaria del equipo, inspeccionar cada producto, seleccionar un talle y agregarlo a un carrito.
 -Visualizar los jugadores actuales del equipo
 -Conocer la historia del equipo
--Loguearse a la pagina
+-Loguearse a la pagina (para probar el login usar mail: manuelcallegari98@gmail.com  password: 21 )
 
 La pagina se desarrolló con componentes de React y Tailwind CSS, se implementó la lógica con JavaScript y se utilizó:
 -material-tailwind para desarrolo de carruseles, botones y otros componentes.

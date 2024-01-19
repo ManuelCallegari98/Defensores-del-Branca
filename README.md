@@ -15,3 +15,5 @@ La pagina se desarrolló con componentes de React y Tailwind CSS, se implementó
 
 La aplicación desplegada se puede acceder en Vercel
 Enlace: https://defensores-del-branca.vercel.app/
+
+Se puede acceder al wireframe de la pagina a traves del siguiente link: https://www.figma.com/file/YYw9dfD9Pi6LErR7Cg4qTa/DDB-PAGE?type=design&node-id=0%3A1&mode=design&t=QVktfLvNQiY5aTho-1

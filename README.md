@@ -13,4 +13,5 @@ La pagina se desarrolló con componentes de React y Tailwind CSS, se implementó
 -react-icons para diferentes iconos en la pagina.
 -Swiper/react para realizar el slider de los jugadores.
 
-La aplicación desplegada se puede acceder en Vercel.
+La aplicación desplegada se puede acceder en Vercel
+Enlace: https://defensores-del-branca.vercel.app/

@@ -1,8 +1,16 @@
-# React + Vite
+Defensores del Branca
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Se creo una aplicación web con React y Vite que permite a los usuarios:
+-Visualizar ultimas noticias del equipo, fixture y tabla de posiciones
+-Visualizar indumentaria del equipo, inspeccionar cada producto, seleccionar un talle y agregarlo a un carrito.
+-Visualizar los jugadores actuales del equipo
+-Conocer la historia del equipo
+-Loguearse a la pagina
 
-Currently, two official plugins are available:
+La pagina se desarrolló con componentes de React y Tailwind CSS, se implementó la lógica con JavaScript y se utilizó:
+-material-tailwind para desarrolo de carruseles, botones y otros componentes.
+-react-router-dom para enrutar las diferentes paginas.
+-react-icons para diferentes iconos en la pagina.
+-Swiper/react para realizar el slider de los jugadores.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La aplicación desplegada se puede acceder en Vercel.

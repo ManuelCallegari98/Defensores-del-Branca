@@ -32,7 +32,6 @@ const Weather = () => {
         .catch(err => console.error(err));
     }
   }, [location]);
-
   if (!weatherData) return <div className='aspect-square w-8 flex justify-center items-center animate-spin animate-duration-[2500ms]'><WiDaySunny size={28} /> </div>;
 
   const iconUrl = `https://openweathermap.org/img/wn/${weatherData.weather[0].icon}.png`;

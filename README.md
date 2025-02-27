@@ -1,28 +1,57 @@
-Defensores del Branca
+# Defensores del Branca
 
-Se creo una aplicación web con React y Vite que permite a los usuarios:
--Visualizar ultimas noticias del equipo, fixture y tabla de posiciones
--Visualizar indumentaria del equipo, inspeccionar cada producto, seleccionar un talle y agregarlo a un carrito.
--Visualizar los jugadores actuales del equipo
--Conocer la historia del equipo
--Loguearse a la pagina (para probar el login usar mail: manuelcallegari98@gmail.com  password: 21 )
+## Description
+A web application built with React and Vite for the Defensores del Branca football team, providing team information, news, and an e-commerce platform for team merchandise.
 
-La pagina se desarrolló con componentes de React y Tailwind CSS, se implementó la lógica con JavaScript y se utilizó:
--material-tailwind para desarrolo de carruseles, botones y otros componentes.
--react-router-dom para enrutar las diferentes paginas.
--react-icons para diferentes iconos en la pagina.
--Swiper/react para realizar el slider de los jugadores.
+## Features
+- **News Feed**: Latest team news, fixture information, and league standings
+- **Team Shop**: 
+  - Browse team merchandise
+  - Product details with size selection
+  - Shopping cart functionality
+- **Team Roster**: Interactive player gallery
+- **Team History**: Historical information about the club
+- **User Authentication**: Login system for members
 
-La aplicación desplegada se puede acceder en Vercel
-Enlace: https://defensores-del-branca.vercel.app/
+## Technologies
+### Frontend
+- **React 18**: JavaScript library for building user interfaces
+- **Vite**: Next-generation frontend tooling
+- **Tailwind CSS**: Utility-first CSS framework
+  - `@material-tailwind/react`: Material Design components
+  - `tailwindcss-animated`: Animation utilities
 
-Se puede acceder al wireframe de la pagina a traves del siguiente link: https://www.figma.com/file/YYw9dfD9Pi6LErR7Cg4qTa/DDB-PAGE?type=design&node-id=0%3A1&mode=design&t=QVktfLvNQiY5aTho-1
+### UI Components & Libraries
+- **Swiper**: Modern touch slider for player gallery
+- **React Router DOM**: Routing management
+- **React Icons**: Icon components
 
-Para la paleta de colores se utilizo:
+### State Management
+- Custom context implementation for:
+  - Shopping cart
+  - Filters
+  - User authentication
 
-Como color principal: #870A28
-Secundario: #00613c
-Tercero: #FFFFFF
+## Demo
+The application is deployed on Vercel:
+[Live Demo](https://defensores-del-branca.vercel.app/)
 
+## Design
+- **Wireframes**: [Figma Design](https://www.figma.com/file/YYw9dfD9Pi6LErR7Cg4qTa/DDB-PAGE?type=design&node-id=0%3A1&mode=design&t=QVktfLvNQiY5aTho-1)
+- **Color Palette**:
+  - Primary: `#870A28`
+  - Secondary: `#00613c`
+  - Tertiary: `#FFFFFF`
+
+## Testing Credentials
+For demo purposes:
+- Email: manuelcallegari98@gmail.com
+- Password: 21
+
+## Local Development
+1. Clone the repository
+2. Install dependencies:
+```bash
+npm install
 
       

@@ -32,12 +32,12 @@ const Team = () => {
           >
               {players.map((player, index) => (
                   <SwiperSlide key={index}>
-                      <div className="flex flex-col items-center font-custom text-verdeDDB text-2xl font-bold"> {/* Aumentamos el tamaño del texto */}
+                      <div className="flex flex-col items-center font-custom  text-2xl font-bold"> {/* Aumentamos el tamaño del texto */}
                           <p className={`${index === activeIndex ? 'opacity-100' : 'opacity-0'} transition-opacity duration-300`}>{player.alt}</p>
                           <img 
                               src={player.img} 
                               alt={player.alt} 
-                              className={`${index === activeIndex ? 'opacity-100' : 'opacity-40'} transition-opacity duration-300`} 
+                              className={`${index === activeIndex ? 'opacity-100' : 'opacity-60'} transition-opacity duration-300 ${index !== activeIndex ? 'tint-rojoDDB' : ''}`} 
                           />
                       </div>
                   </SwiperSlide>

@@ -36,11 +36,26 @@ const Navigation = () => {
         <header className="font-custom text-white body-font bg-[#870A28] w-full z-10">
             <div className="container mx-auto flex flex-wrap p-2 flex-col md:flex-row items-center">
                 <nav className="sticky flex lg:w-2/5 text-xl flex-wrap items-center tmd:ml-auto">
-                    <Button variant="text" size="sm" className="mr-1 text-white"> <Link to="/" >Inicio</Link> </Button>
-                    <Button variant="text" size="sm" className="mr-1 text-white"> <Link to="/shop" >Tienda</Link> </Button>
-                    <Button variant="text" size="sm" className="mr-1 text-white"> <Link to="/team" >Equipo</Link> </Button>
-                    <Button variant="text" size="sm" className="mr-1 text-white"> <Link to="/history" >Historia</Link> </Button>
-
+                    <Link to="/">
+                        <Button variant="text" size="sm" className="mr-1 text-white w-full">
+                            Inicio
+                        </Button>
+                    </Link>
+                    <Link to="/shop">
+                        <Button variant="text" size="sm" className="mr-1 text-white w-full">
+                            Tienda
+                        </Button>
+                    </Link>
+                    <Link to="/team">
+                        <Button variant="text" size="sm" className="mr-1 text-white w-full">
+                            Equipo
+                        </Button>
+                    </Link>
+                    <Link to="/history">
+                        <Button variant="text" size="sm" className="mr-1 text-white w-full">
+                            Historia
+                        </Button>
+                    </Link>
                 </nav>
                 <a className="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
                     <Link to="/" className="flex items-center text-white text-xl"><img src="/LogoDDB.png" cursor="pointer" alt="Logo" width={50} height={70} layout="fill" className="transition-all duration-300 transform hover:scale-110 mr-2" />{' '}Defensores del Branca</Link>

@@ -12,8 +12,8 @@ const Login = () => {
     const login = () =>{
 
 
-        if(email == 'manuelcallegari98@gmail.com' && password == '21'){
-            alert('Bienvenido Manu al Defe del Branca!!!');
+        if(email == 'admin' && password == '21'){
+            alert('Bienvenido Admin al Defe del Branca!!!');
 
             //Guardar la sesión del usuario
             window.sessionStorage.setItem('usuario', email);

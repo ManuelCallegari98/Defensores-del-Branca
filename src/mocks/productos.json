@@ -6,55 +6,47 @@
         "precio": 10000,
         "descripcion": "Esta camiseta, con su diseño elegante y colores vibrantes, te hará destacar tanto dentro como fuera de la cancha. Hecha con materiales de alta calidad, esta camiseta garantiza tanto la comodidad como la durabilidad. Ya sea que estés jugando en el campo o animando desde las tribunas, esta camiseta te mantendrá cómodo todo el día. Disponible en una variedad de tallas, esta camiseta es perfecta para todos. Elije tu talla ideal y disfruta del ajuste perfecto.",
         "categoria": "Camiseta",
-        "imagen": "https://i.ibb.co/GFCwc4c/Titular.jpg"
+        "imagen": "/products/Titular.jpg"
       },
       {
         "id": 2,
-        "nombre": "Camiseta Alternativa 2023",
-        "precio": 10000,
-        "descripcion": "Camiseta Suplente temporada 2023",
-        "categoria": "Camiseta",
-        "imagen":"https://i.ibb.co/bFVWSkt/Alternativa.jpg"
-      },
-      {
-        "id": 3,
         "nombre": "Camiseta Arquero 2023",
         "precio": 10000,
         "descripcion": "Camiseta Arquero temporada 2023",
         "categoria": "Camiseta",
-        "imagen":"https://i.ibb.co/vwpMF1V/Arquero.jpg"
+        "imagen":"/products/Arquero.jpg"
       },
       {
-        "id": 4,
+        "id": 3,
         "nombre": "Short Titular 2023",
         "precio": 5000,
         "descripcion": "Short Titular temporada 2023",
         "categoria": "Short",
-        "imagen":"https://i.ibb.co/PGt739n/Short-Titular.jpg"
+        "imagen":"/products/Short-Titular.jpg"
       },
       {
-        "id": 5,
+        "id": 4,
         "nombre": "Short Suplente 2023",
         "precio": 5000,
         "descripcion": "Short Suplente temporada 2023",
         "categoria": "Short",
-        "imagen":"https://i.ibb.co/hf61cB0/Short-Suplente.jpg"
+        "imagen":"/products/Short-Suplente.jpg"
       },
       {
-        "id": 6,
+        "id": 5,
         "nombre": "Llavero Defensores del Branca",
         "precio": 500,
         "descripcion": "Llavero del escudo del Defensores del Branca",
         "categoria": "Accesorio",
-        "imagen":"https://i.ibb.co/NmhQ37y/Llaveros.jpg"
+        "imagen":"/products/Llaveros.jpg"
       },
       {
-        "id": 7,
+        "id": 6,
         "nombre": "Sticker Defensores del Branca",
         "precio": 150,
         "descripcion": "Sticker del escudo del Defensores del Branca",
         "categoria": "Accesorio",
-        "imagen":"https://i.ibb.co/HFCnBjt/Stickers.jpg"
+        "imagen":"/products/Stickers.jpg"
       }
     ]
   }

@@ -64,7 +64,7 @@ const Navigation = () => {
                 <div className="lg:w-2/5 inline-flex lg:justify-end ml-1 lg:ml-0">
                     <Weather />
                     <div className="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-                        {user ? (
+                    {user ? (
                             <Menu>
                                 <MenuHandler>
                                     <Button
@@ -81,8 +81,12 @@ const Navigation = () => {
                                 </MenuList>
                             </Menu>
                         ) : (
-                            <Button size="sm" className="inline-flex items-center bg-[#00613c]  focus:outline-none hover:bg-[#00613cae] mt-4 md:mt-0"                            >
-                                <AiOutlineLogin onClick={login} />
+                            <Button 
+                                size="sm" 
+                                className="inline-flex items-center bg-[#00613c] focus:outline-none hover:bg-[#00613cae] mt-4 md:mt-0"
+                                onClick={login}
+                            >
+                                <AiOutlineLogin />
                             </Button>
                         )}
                     </div>
